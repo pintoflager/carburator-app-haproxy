@@ -1,0 +1,4 @@
+stats = true
+
+# trace, debug, info, warning/warn, error, critical, off
+loglevel = "warn"
