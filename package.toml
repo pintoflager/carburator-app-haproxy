@@ -1,38 +1,4 @@
-name = "hetzner"
-
-default = false
-
-[target]
-status = "production"
-
-# [requirements]
-# local = []
-# remote = []
-
-# TODO: not implemented
-[[user]]
-name = "generate!(user)"
-
-# [[secret]]
-# name = "haproxy_user"
-
-# [[secret.line]]
-# key = "password"
-# value = "generate!(password)"
-
-[[occupied_ports.http]]
-number = "80"
-protocol = "tcp"
-
-[[occupied_ports.https]]
-number = "443"
-protocol = "tcp"
-
-[[published_ports.http]]
-number = "80"
-protocol = "tcp"
-
-[[published_ports.https]]
-number = "443"
-protocol = "tcp"
-
+name = "haproxy"
+version = "0.1.0"
+collection = "App"
+platforms = ["Server"]
