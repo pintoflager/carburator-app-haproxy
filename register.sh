@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # TODO: keep package as a thin layer with only the essentials.
-# install scripts can then do what ever they want, integrating with
+# register scripts can then do what ever they want, integrating with
 # carburator or not.
 
 # Below toml with comments is a pure reminder of what was required in previous
